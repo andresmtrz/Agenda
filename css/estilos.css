@@ -1,0 +1,33 @@
+body {
+    background-image: url('https://i.pinimg.com/564x/f5/99/8c/f5998c7e76c9fd6ce8cc33c70d1b189c.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#lista li {
+    color: goldenrod;
+    list-style-type: disc;
+    position: relative;
+    list-style: none;
+    padding: 3px;
+    margin: 10px;
+    font-weight: bold ;
+}
+
+#boton {
+    color: greenyellow;
+    border-radius: 15%;
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+.btn-delete {
+    color: black;
+    background-color: brown;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: darkslategrey ;
+}
